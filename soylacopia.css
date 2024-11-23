@@ -1,0 +1,31 @@
+#container{
+    color: #000000;
+	width: 100%;
+	min-height: 100vh;
+	z-index: 1000;
+	position: relative;
+	margin-top: 100vh;
+} 
+
+#Descripcion-about_me{
+    float:left;
+    height: 70vh;
+    width: 50%;
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Alinea elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    text-align: left; /* Alinea el texto al centro */
+    padding: 20px;
+    background: #222;
+}
+
+aside {
+    float: left; /* Mantiene el aside flotando a la izquierda */
+    height: 70vh; /* Ocupa toda la altura de la ventana */
+    width: 50%; /* Ocupa la mitad del ancho */
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Estructura en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    background: #222; /* Fondo visible */
+}
