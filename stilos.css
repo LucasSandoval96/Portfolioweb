@@ -148,8 +148,7 @@ font-weight: 700;
 
 .flecha {
     position: fixed;
-    right: 10px; /* Coloca la flecha al borde derecho */
-    bottom: 10px; /* Opcional: ajusta la posición vertical */
+    top: 610px; /* Opcional: ajusta la posición vertical */
 }
 
 
@@ -160,7 +159,7 @@ font-weight: 700;
 }
 
 #container{
-    color: #ff0571;
+    color: #1cedae;
 	width: 100%;
 	min-height: 100vh;
 	z-index: 1000;

@@ -55,8 +55,8 @@
                 
                 <div class="clearfix"></div>
                 <div class="flecha">
-                    <a href="#">
-                        <img src="imagenes/navegar-flechas-apuntando-hacia-abajo.png" alt="" width="50px"/>
+                    <a href="#container">
+                        <img src="imagenes/flechaneon.png" alt="" width="50px"/>
                     </a>
                 </div>
             </header>
@@ -196,5 +196,19 @@
                 header.style.opacity = '1' - window.pageYOffset / 650;
             });
         </script>   -->
+        <script>
+            document.querySelector('.flecha a').addEventListener('click', function (e) {
+                e.preventDefault(); // Evita el comportamiento predeterminado del enlace
+        
+                // Obtén el elemento al que deseas desplazarte
+                const target = document.querySelector('#container');
+        
+                // Realiza el desplazamiento suave
+                target.scrollIntoView({
+                    behavior: 'smooth', // Desplazamiento suave
+                    block: 'start'      // Alinea al inicio del contenedor
+                });
+            });
+        </script>
     </body>
 </html>
