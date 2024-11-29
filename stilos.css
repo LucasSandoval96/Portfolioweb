@@ -146,6 +146,12 @@ font-weight: 700;
     transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
 }
 
+a.enlacebt {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit;       /* Mantiene el color del texto */
+    display: inline-block; /* Permite que el enlace actúe como un botón */
+}
+
 .flecha {
     position: fixed;
     top: 610px; /* Opcional: ajusta la posición vertical */
